@@ -1,0 +1,54 @@
+body{
+	background-color: #363636;
+}
+
+div{
+	background-color: white;
+}
+
+h1#tituloPrincipal{
+	font-family: 'Ranchers', cursive;
+	font-size: 80px;
+	text-align: center;
+}
+
+details{
+	font-size: 15px;
+	font-family: arial, sans-serif;
+}
+
+.titulos{
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 40px;
+	background-color: #FA8072;
+}
+
+p{
+	font-size: 20px;
+	font-family: arial, sans-serif;
+	text-align: center;
+}
+
+table td{
+	background-color: #E9967A;
+	color: black;
+	font-family: verdana, sans-serif;
+}
+
+table caption{
+	background-color: #FF6347;
+	color: black;
+	font-weight: bold;
+	font-family: verdana, sans-serif;
+}
+
+p#animesVistos{
+	font-size: 20px;
+}
+
+.menu{
+	font-family: verdana, sans-serif;
+	text-decoration: none;
+	background-color: #B22222;
+	color: white;
+}
