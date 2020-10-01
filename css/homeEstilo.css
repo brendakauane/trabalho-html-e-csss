@@ -2,14 +2,41 @@ body{
 	background-color: #363636;
 }
 
+/* Formatação do header */
+header{
+	background-color: white;
+	padding: 15px;
+}
+
+header nav ul{
+	position: relative;
+	left: 1200px;
+	list-style: none;
+	text-transform: uppercase;
+}
+
+header nav ul li{
+	display: inline-block;
+	padding: 10px;
+	background-color: red;
+	color: white;
+}
+
+header nav ul li a{
+	color: white;
+	text-decoration: none;
+}
+
 div{
 	background-color: white;
 }
 
+.cabecalho{
+	position: absolute;
+}
+
 h1#titulo{
 	font-family: 'Ranchers', cursive;
-	font-size: 80px;
-	color: black;
 }
 
 .menu{
