@@ -1,44 +1,70 @@
+body{ 
+  border: 5px  #B22222 ; 
+  background-color:#363636;
+}
+
 img{
 	border-radius: 100px;
   
 }
-div{ margin: 14px;
+
+div{
+  margin: 14px;
 	background-color: #F5FFFA;
 }
- 
- body{ border: 5px  #B22222 ; 
-       background-color:#363636;
-  
- }
- 
-.menu{
-  font-family: verdana, sans-serif;
-  text-decoration: none;
-  background-color: #B22222;
+
+
+/* Formatação do header */
+header{
+  background-color: white;
+  padding: 15px;
+}
+
+header nav ul{
+  position: relative;
+  list-style: none;
+  text-transform: uppercase;
+  background-color: white;
+  width: 330px;
+}
+
+header nav ul li{
+  display: inline-block;
+  padding: 10px;
+  background-color: red;
   color: white;
 }
 
-.texto{ 	font-family: 'Lemonada', cursive;
-        font-size: 25px;
-        text-align: center;
+header nav ul li a{
+  color: white;
+  text-decoration: none;
 }
 
-.estilo{ font-family: 'Dancing Script', cursive;
-        font-size: 55px;
-        text-align: center;}
 
- .cor{font-family:'Dancing Script', cursive;
-      font-size: 40px;
-      background-color:#363636;
-      color:#B22222 ;
-      text-align: center; 
-
+.texto{ 	
+  font-family: 'Lemonada', cursive;
+  font-size: 25px;
+  text-align: center;
 }
 
-ul{background-color: #F5FFFA;
+.estilo{ 
+  font-family: 'Dancing Script', cursive;
+  font-size: 55px;
+  text-align: center;
+}
+
+.cor{
+  font-family:'Dancing Script', cursive;
+  font-size: 40px;
+  background-color:#363636;
+  color:#B22222 ;
+  text-align: center; 
+}
+
+ul.developers{
+  background-color: #F5FFFA;
 	font-family: 'Dancing Script', cursive;
-        font-size: 35px;
-        text-align: center;
-        margin: 14px;
-
+  font-size: 35px;
+  text-align: center;
+  margin: 14px;
 }

@@ -10,9 +10,10 @@ header{
 
 header nav ul{
 	position: relative;
-	left: 1200px;
 	list-style: none;
 	text-transform: uppercase;
+	background-color: white;
+	width: 400px;
 }
 
 header nav ul li{
@@ -27,16 +28,14 @@ header nav ul li a{
 	text-decoration: none;
 }
 
-div{
-	background-color: white;
-}
-
-.cabecalho{
-	position: absolute;
-}
-
 h1#titulo{
 	font-family: 'Ranchers', cursive;
+}
+
+
+
+div{
+	background-color: white;
 }
 
 .menu{

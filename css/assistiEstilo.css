@@ -2,6 +2,38 @@ body{
 	background-color: #363636;
 }
 
+
+/* Formatação do header */
+header{
+	background-color: white;
+	padding: 15px;
+}
+
+header nav ul{
+	position: relative;
+	list-style: none;
+	text-transform: uppercase;
+	background-color: white;
+	width: 400px;
+}
+
+header nav ul li{
+	display: inline-block;
+	padding: 10px;
+	background-color: red;
+	color: white;
+}
+
+header nav ul li a{
+	color: white;
+	text-decoration: none;
+}
+
+
+
+
+
+
 div{
 	background-color: white;
 }
